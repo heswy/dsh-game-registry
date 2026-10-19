@@ -1,11 +1,11 @@
 {
   "registryVersion": 1,
-  "generatedAt": "2026-10-19T10:20:26.921Z",
+  "generatedAt": "2026-10-19T10:32:20.872Z",
   "games": [
     {
       "id": "ember-drift",
       "name": "Ember Drift",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "A two-minute hand-painted space dodge. Weave through the emberfall, gather fallen stars, and keep the little skiff alight.",
       "author": {
         "name": "heswy"
@@ -27,21 +27,22 @@
       "sdkVersion": "^1.0.0",
       "runtimeVersion": "^1.0.0",
       "package": {
-        "url": "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.0/ember-drift-1.0.0.html",
-        "sha256": "cb2c5a6f769111d8d1ac7c22cbbe360b79ea95416edb340b992964f4a18ab283",
+        "url": "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.1/ember-drift-1.0.1.html",
+        "sha256": "b0ce0ef686a86bb9c1d642660ac80c77a94618001f76a7c0a216e22e8ae977dc",
         "size": 156897,
-        "releasedAt": "2026-10-19T10:20:26.921Z"
+        "releasedAt": "2026-10-19T10:32:20.872Z"
       },
-      "cover": "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.0/cover-1.0.0.png",
+      "cover": "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.1/cover-1.0.1.png",
       "screenshots": [
-        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.0/screenshot-1-1.0.0.png",
-        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.0/screenshot-2-1.0.0.png",
-        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.0/screenshot-3-1.0.0.png",
-        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.0/screenshot-4-1.0.0.png"
+        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.1/screenshot-1-1.0.1.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.1/screenshot-2-1.0.1.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.1/screenshot-3-1.0.1.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/ember-drift-v1.0.1/screenshot-4-1.0.1.png"
       ],
       "license": "MIT",
-      "publishedAt": "2026-10-19T10:20:26.921Z",
-      "updatedAt": "2026-10-19T10:20:26.921Z"
+      "changelog": "Star pickups are now worth 15 points (was 12). Save schema unchanged.",
+      "publishedAt": "2026-10-19T10:32:20.872Z",
+      "updatedAt": "2026-10-19T10:32:20.872Z"
     }
   ]
 }
