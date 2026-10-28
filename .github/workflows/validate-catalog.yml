@@ -32,6 +32,10 @@ jobs:
           persist-credentials: false
           fetch-depth: 1
 
+      - name: Install trusted toolchain dependencies
+        working-directory: .toolchain
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
       - name: Checkout trusted base revision
         if: github.event_name == 'pull_request'
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
