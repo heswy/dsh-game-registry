@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "platformRepo": "heswy/dsh-game-market",
-  "commit": "07f2ef1de6aea2b3857bc7e2983f7f083db7eb99",
-  "platformVersion": "1.5.0-rc.1",
-  "generatedAt": "2026-10-26T15:40:00.000Z"
+  "commit": "cf39f571adf6027f712b27a04505dea3a6620e9c",
+  "platformVersion": "1.5.0-rc.3",
+  "generatedAt": "2026-10-30T06:14:22.000Z"
 }
