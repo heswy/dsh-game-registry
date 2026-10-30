@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "gameId": "external-orbit",
+  "version": "1.0.1",
+  "decision": "approved",
+  "reviewer": {
+    "login": "heswy",
+    "githubUserId": 174761563
+  },
+  "reviewedAt": "2026-10-30T07:45:00Z",
+  "source": {
+    "issueUrl": "https://github.com/heswy/dsh-game-registry/issues/9"
+  },
+  "sourceCommit": "771991199901860ac69c92bdb241d2f389548044",
+  "package": {
+    "sha256": "05194feb688552b84df254720c853e03556efb11c4b38b43804c8efa70aacc02",
+    "size": 418059
+  },
+  "media": {
+    "coverSha256": "016eac441230e53b2dfd8a091657f860de824e43eabe9dabdb03b7dec0ddbddb",
+    "screenshotSha256s": [
+      "b17843a12ec01f2e5cc3ade87f0808e6b7bf159b8c436456ec15c90987e89b52"
+    ]
+  },
+  "testEvidence": [
+    {
+      "kind": "manual",
+      "note": "Controlled external-author 1.0.1 update. Download from the author's fixed public raw URL matched the declared SHA-256/size; the 24-file asset-zip-v2 archive validated; save schema remains compatible with 1.0.0."
+    }
+  ]
+}
