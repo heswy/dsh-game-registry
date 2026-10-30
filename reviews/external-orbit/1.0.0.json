@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "gameId": "external-orbit",
+  "version": "1.0.0",
+  "decision": "approved",
+  "reviewer": {
+    "login": "heswy",
+    "githubUserId": 174761563
+  },
+  "reviewedAt": "2026-10-30T07:35:16Z",
+  "source": {
+    "issueUrl": "https://github.com/heswy/dsh-game-registry/issues/7"
+  },
+  "sourceCommit": "3d6a3e3268192835aebd73e903d9dba82421b87b",
+  "package": {
+    "sha256": "05328d64f8ff7d600bff88d1114625231a142dd71b390b195ba5d87b3b381363",
+    "size": 418059
+  },
+  "media": {
+    "coverSha256": "016eac441230e53b2dfd8a091657f860de824e43eabe9dabdb03b7dec0ddbddb",
+    "screenshotSha256s": [
+      "b17843a12ec01f2e5cc3ade87f0808e6b7bf159b8c436456ec15c90987e89b52"
+    ]
+  },
+  "testEvidence": [
+    {
+      "kind": "manual",
+      "note": "Controlled external-author submission. Package and media bytes were downloaded from the author's fixed public raw URLs and matched the declared SHA-256/size. The 24-file asset-zip-v2 archive validated with the platform validator, the game start screen rendered, and the reference Orbit Courier build in the same package family completed 407031ms of real Desktop gameplay with zero CSP errors in the M5 evidence set."
+    }
+  ]
+}

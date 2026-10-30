@@ -1,5 +1,42 @@
 {
   "registryVersion": 2,
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "games": []
+  "generatedAt": "2026-10-30T07:37:09.112Z",
+  "games": [
+    {
+      "id": "external-orbit",
+      "name": "External Orbit",
+      "version": "1.0.0",
+      "description": "Controlled external-author submission for the M5 P01 gate. A short multi-file orbit arcade game.",
+      "author": {
+        "name": "Orangeheswy"
+      },
+      "categories": [
+        "arcade"
+      ],
+      "tags": [
+        "external-author",
+        "controlled-test"
+      ],
+      "capabilities": [
+        "storage",
+        "score"
+      ],
+      "sdkVersion": "^1.0.0",
+      "runtimeVersion": "^1.0.0",
+      "package": {
+        "url": "https://github.com/heswy/dsh-game-registry/releases/download/external-orbit-v1.0.0/external-orbit-1.0.0.dshgame.zip",
+        "sha256": "05328d64f8ff7d600bff88d1114625231a142dd71b390b195ba5d87b3b381363",
+        "size": 418059,
+        "releasedAt": "2026-10-30T07:37:09.112Z",
+        "format": "asset-zip-v2",
+        "filesDigest": "fc560b977ed72638430635b0fa01b4cf90ae86cf0c98f462a69e0031acca0fbe"
+      },
+      "cover": "https://github.com/heswy/dsh-game-registry/releases/download/external-orbit-v1.0.0/cover-1.0.0.png",
+      "screenshots": [
+        "https://github.com/heswy/dsh-game-registry/releases/download/external-orbit-v1.0.0/screenshot-1-1.0.0.png"
+      ],
+      "publishedAt": "2026-10-30T07:37:09.112Z",
+      "updatedAt": "2026-10-30T07:37:09.112Z"
+    }
+  ]
 }
