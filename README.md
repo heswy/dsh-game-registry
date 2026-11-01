@@ -6,8 +6,8 @@ tools; this repository owns catalog data, ownership, review records and the
 generated runtime index.
 
 - Platform: `heswy/dsh-game-market`
-- Toolchain commit: `2b45b2ec004fa622f9d4567b65d4b978a13a4e90`
-- Initialised for platform version: `1.1.0` (toolchain pinned after PR #4 merge)
+- Toolchain commit: `6960993f7331eba9c89b2075152992d958f69fba`
+- Initialised for platform version: `1.5.0` (production release, pinned after PR #4 and the v1.5.0 stable promotion)
 - Runtime source for clients: `registry/games.json` (generated, do not edit by hand)
 
 Layout:
