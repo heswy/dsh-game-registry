@@ -1,5 +1,49 @@
 {
   "registryVersion": 2,
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "games": []
+  "generatedAt": "2026-11-02T02:16:37.812Z",
+  "games": [
+    {
+      "id": "little-leviathan",
+      "name": "Little Leviathan",
+      "version": "1.0.0",
+      "description": "Eat smaller, dodge bigger, chain combos and dive from the sunlit reef to the hadal trench as a whale calf growing into a leviathan.",
+      "author": {
+        "name": "Orangeheswy"
+      },
+      "categories": [
+        "arcade",
+        "action"
+      ],
+      "tags": [
+        "ocean",
+        "grow",
+        "combo",
+        "arcade"
+      ],
+      "capabilities": [
+        "storage",
+        "score"
+      ],
+      "sdkVersion": "^1.0.0",
+      "runtimeVersion": "^1.0.0",
+      "package": {
+        "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/little-leviathan-1.0.0.dshgame.zip",
+        "sha256": "47f14d462c897d03b585c7155cbc810a7d2345e74b2a3cbdcdec963dcd08954d",
+        "size": 274573,
+        "releasedAt": "2026-11-02T02:16:37.812Z",
+        "format": "asset-zip-v2",
+        "filesDigest": "fefc6c445ea3ed0a09f0f8f84894abdb7ca70b68fe8fd8c60c242f18cb855bf2"
+      },
+      "cover": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/cover-1.0.0.png",
+      "screenshots": [
+        "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-1-1.0.0.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-2-1.0.0.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-3-1.0.0.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-4-1.0.0.png",
+        "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-5-1.0.0.png"
+      ],
+      "publishedAt": "2026-11-02T02:16:37.812Z",
+      "updatedAt": "2026-11-02T02:16:37.812Z"
+    }
+  ]
 }
