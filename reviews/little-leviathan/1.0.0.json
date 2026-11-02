@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "gameId": "little-leviathan",
+  "version": "1.0.0",
+  "decision": "approved",
+  "reviewer": {
+    "login": "heswy",
+    "githubUserId": 174761563
+  },
+  "reviewedAt": "2026-11-01T15:28:00Z",
+  "source": {
+    "issueUrl": "https://github.com/heswy/dsh-game-registry/issues/18"
+  },
+  "sourceCommit": "ef2a64c8fe86698b8fdd0fc33fe89f3e28068b33",
+  "package": {
+    "sha256": "47f14d462c897d03b585c7155cbc810a7d2345e74b2a3cbdcdec963dcd08954d",
+    "size": 274573
+  },
+  "media": {
+    "coverSha256": "5cff4921a2c6eda80f1c8f4b5f908d55df2b92c580e3675298992bf6a29dfe04",
+    "screenshotSha256s": [
+      "c649aabc6d3d2a05d95f5ed690d6dbd9c2b7951a979af3152d1919c21314bc74",
+      "24870ffd33227de680e50c0a7413c0e1331f8cb5330cd1075c467a7d95e2133e",
+      "0ddd96ace36d11bd3c647e3d4ae7fdc7d15fdadd375b2f081eac25ceebba2a47",
+      "7f15ab898219a5e589ce0cb99a587a42a3eb2cfd013b696c18aa5ade409a15d6",
+      "fe54928965d17c099bbec3285777f63cfb92b5dc698aa8dfb0c24aa11afac4fa"
+    ]
+  },
+  "testEvidence": [
+    {
+      "kind": "bytes",
+      "note": "Author's declared bytes downloaded and verified: package sha256 47f14d46...954d and 274573 bytes match; .sha256 URL matches the file name; asset-zip-v2 archive passes the shared Host archive pipeline (5 files, entry index.html, filesDigest fefc6c44...bf2 equals the declared digest); cover and 5 screenshots match declared SHA-256/size and are real 1598x898 PNGs."
+    },
+    {
+      "kind": "manual",
+      "note": "Isolated Runtime Simulator (fake bridge, no DSH profile or secrets), 5 minutes of wall-clock play by trusted CDP keyboard events with the package's documented read-only QA hook/autopilot for assistance; two runs reached stage 5 / 25171 points (112 eaten) before game over, each run started through the real Enter/title flow."
+    },
+    {
+      "kind": "manual",
+      "note": "Second lifecycle session in the same isolated Runtime: P pauses and P resumes, host before-save writes an 8921-byte profile+run save, Reload game exposes Continue and C restores the exact unfinished run (stage 2, 7609 points); host theme toggle (dark/light), stage resize (narrow window) and locale switch all render correctly."
+    },
+    {
+      "kind": "source",
+      "note": "Source commit ef2a64c8...8b33 exists in the public repo https://github.com/Orangeheswy/little-leviathan; MIT code/assets, no third-party libraries, no external network calls in the package. Real DSH Desktop install remains a post-publish check."
+    }
+  ]
+}

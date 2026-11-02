@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "gameId": "little-leviathan",
+  "owner": {
+    "login": "Orangeheswy",
+    "githubUserId": 350164273
+  },
+  "game": {
+    "id": "little-leviathan",
+    "name": "Little Leviathan",
+    "version": "1.0.0",
+    "description": "Eat smaller, dodge bigger, chain combos and dive from the sunlit reef to the hadal trench as a whale calf growing into a leviathan.",
+    "author": {
+      "name": "Orangeheswy"
+    },
+    "categories": [
+      "arcade",
+      "action"
+    ],
+    "tags": [
+      "ocean",
+      "grow",
+      "combo",
+      "arcade"
+    ],
+    "capabilities": [
+      "storage",
+      "score"
+    ],
+    "sdkVersion": "^1.0.0",
+    "runtimeVersion": "^1.0.0",
+    "license": "MIT"
+  },
+  "releases": [
+    {
+      "version": "1.0.0",
+      "format": "asset-zip-v2",
+      "tag": "little-leviathan-v1.0.0",
+      "package": {
+        "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/little-leviathan-1.0.0.dshgame.zip",
+        "sha256": "47f14d462c897d03b585c7155cbc810a7d2345e74b2a3cbdcdec963dcd08954d",
+        "size": 274573,
+        "filesDigest": "fefc6c445ea3ed0a09f0f8f84894abdb7ca70b68fe8fd8c60c242f18cb855bf2"
+      },
+      "media": {
+        "cover": {
+          "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/cover-1.0.0.png",
+          "sha256": "5cff4921a2c6eda80f1c8f4b5f908d55df2b92c580e3675298992bf6a29dfe04",
+          "size": 851701,
+          "type": "png"
+        },
+        "screenshots": [
+          {
+            "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-1-1.0.0.png",
+            "sha256": "c649aabc6d3d2a05d95f5ed690d6dbd9c2b7951a979af3152d1919c21314bc74",
+            "size": 350758,
+            "type": "png"
+          },
+          {
+            "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-2-1.0.0.png",
+            "sha256": "24870ffd33227de680e50c0a7413c0e1331f8cb5330cd1075c467a7d95e2133e",
+            "size": 437536,
+            "type": "png"
+          },
+          {
+            "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-3-1.0.0.png",
+            "sha256": "0ddd96ace36d11bd3c647e3d4ae7fdc7d15fdadd375b2f081eac25ceebba2a47",
+            "size": 282978,
+            "type": "png"
+          },
+          {
+            "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-4-1.0.0.png",
+            "sha256": "7f15ab898219a5e589ce0cb99a587a42a3eb2cfd013b696c18aa5ade409a15d6",
+            "size": 286405,
+            "type": "png"
+          },
+          {
+            "url": "https://github.com/heswy/dsh-game-registry/releases/download/little-leviathan-v1.0.0/screenshot-5-1.0.0.png",
+            "sha256": "fe54928965d17c099bbec3285777f63cfb92b5dc698aa8dfb0c24aa11afac4fa",
+            "size": 350513,
+            "type": "png"
+          }
+        ]
+      },
+      "sourceCommit": "ef2a64c8fe86698b8fdd0fc33fe89f3e28068b33",
+      "reviewSha256": "e302acb5c9199b1e5eb4db89d52164485db0594bd41dd9a40be717ca854d3061",
+      "releasedAt": "2026-11-02T02:16:37.812Z"
+    }
+  ],
+  "withdrawnAt": null,
+  "createdAt": "2026-11-02T02:16:37.812Z",
+  "updatedAt": "2026-11-02T02:16:37.812Z"
+}
